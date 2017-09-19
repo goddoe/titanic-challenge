@@ -4,13 +4,8 @@ import pickle
 import argparse
 
 import tensorflow as tf
-import sklearn.preprocessing
-
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.colors as colors
-import matplotlib.cm as cmx
 
 
 def batch_norm_wrapper(X, is_training, decay, name=None):
